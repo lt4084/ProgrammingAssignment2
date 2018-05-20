@@ -11,11 +11,7 @@ makeCacheMatrix <- function(x = matrix()) {
   setinv <- function(inverse) inv <<- inverse
   getinv <- function() inv
   list(set = set, get = get, setinv = setinv, getinv = getinv)
-}		  
-
-
-
-
+} 
 
 
 ## cacheSolve is a function which computes the inverse of the special "matrix" 
